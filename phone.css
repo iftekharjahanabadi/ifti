@@ -1,14 +1,24 @@
+.navbar ul{
+    flex-wrap:wrap;
+    justity-content:center;
+}
 #home{
     height: 820px;
 }
 .heading{
     font-size: 1.7rem;
 }
+#pic{
+    flex-direction:column;
+    align-item:center;
+}
 #pic img{
     width: 300px;
     height: 175px;
 }
 #intro h2{
+    text-align:cener;
+    padding:10px;
     font-size: 1.5rem;
 }
 .gallery img{
